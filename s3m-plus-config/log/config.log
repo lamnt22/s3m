@@ -1,0 +1,23 @@
+2024-02-02 14:07:19.910  INFO 2132 --- [restartedMain] v.ses.s3m.plus.S3mPlusConfigApplication  : Starting S3mPlusConfigApplication using Java 17.0.4.1 on DESKTOP-5U924SU with PID 2132 (C:\Users\AriusDEV05\Desktop\s3m_2.0\new-git\s3m_plus_cloud\s3m-plus-cloud\s3m-plus-config\target\classes started by AriusDEV05 in C:\Users\AriusDEV05\Desktop\s3m_2.0\new-git\s3m_plus_cloud\s3m-plus-cloud\s3m-plus-config)
+2024-02-02 14:07:19.917  INFO 2132 --- [restartedMain] v.ses.s3m.plus.S3mPlusConfigApplication  : The following profiles are active: native
+2024-02-02 14:07:20.010  INFO 2132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02 14:07:20.010  INFO 2132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02 14:07:25.813  INFO 2132 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=65eafcfe-17e3-3014-b9de-0f0eaa3fb504
+2024-02-02 14:07:26.531  INFO 2132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2024-02-02 14:07:26.547  INFO 2132 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02 14:07:26.548  INFO 2132 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-02-02 14:07:26.708  INFO 2132 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02 14:07:26.709  INFO 2132 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6698 ms
+2024-02-02 14:07:27.245  INFO 2132 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-02 14:07:28.325  INFO 2132 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-02-02 14:07:28.760  INFO 2132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2024-02-02 14:07:29.826  INFO 2132 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-02-02 14:07:29.852  INFO 2132 --- [restartedMain] v.ses.s3m.plus.S3mPlusConfigApplication  : Started S3mPlusConfigApplication in 12.283 seconds (JVM running for 21.334)
+2024-02-02 14:08:02.552  INFO 2132 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-02 14:08:02.552  INFO 2132 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-02 14:08:02.554  INFO 2132 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-02 14:08:02.860  INFO 2132 --- [http-nio-8888-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'class path resource [config/gateway-dev.properties]' via location 'classpath:/config/'
+2024-02-02 14:08:02.861  INFO 2132 --- [http-nio-8888-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'class path resource [config/gateway-dev.yml]' via location 'classpath:/config/'
+2024-02-02 14:08:36.774  INFO 2132 --- [http-nio-8888-exec-2] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'class path resource [config/auth-dev.properties]' via location 'classpath:/config/'
+2024-02-02 14:08:56.478  INFO 2132 --- [http-nio-8888-exec-3] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'class path resource [config/services-consumer-dev.properties]' via location 'classpath:/config/'
+2024-02-02 14:24:51.784  INFO 2132 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
